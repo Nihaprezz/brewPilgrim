@@ -1,24 +1,8 @@
-# README
+# BrewQueue
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A Ruby on Rails application for finding breweries in your area. Allowing users to review them and add them to their queue. 
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Designed and styled site using Bootstrap 4 along with customized CSS styles/animations. 
+- Integrated Open Brewery DB API to locate breweries in the area the user searched.
+- Implemented full CRUD functionality for a user to be able to create, edit, and destroy their reviews.
+- Incorporated user authentication by using bcrypt gems and persisting user sessions using cookie
